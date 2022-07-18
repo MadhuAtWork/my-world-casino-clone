@@ -1,0 +1,577 @@
+/* .main{
+    width: 100%;
+    height:700px;
+    background-color: antiquewhite;
+    user-select: none;
+
+}
+.menu{
+    width:100%;
+    height:15%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.submit input{
+    width:200px;
+    height:auto;
+    padding:10px;
+    margin: 20px;
+}
+.menu button{
+    width:60px;
+    height: auto;
+    padding: 10px;
+    cursor: pointer;
+    background-color: lightsalmon;
+}
+.holder{
+    width:100%;
+    height: 85%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+
+}
+.hloder1{
+    width: 700px;
+    height: 60px;
+    background-color: lightgreen;
+    margin: 10px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+
+}
+.hloder1 img{
+width:100px;
+height: 60px;
+}
+.search input{
+    width:300px;
+    height:auto;
+    padding:10px;
+    margin: 20px;
+} */
+/* searchbar */
+/* _________________________________________________________ */
+
+/* .App{
+    width:100%;
+    height:700px;
+}
+.container{
+    width:100%;
+    height: 100%;
+    background-color: antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    user-select: none;
+}
+.main{
+    width:20%;
+    height: 100%;;
+    background-color:lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.user{
+    width:70%;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    margin:10px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 4px;
+  text-align:center;
+
+}
+.menu{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.userprofile2{
+    width:70%;
+    height:0px;
+    overflow: hidden; 
+    transition : 0.5s; 
+}
+.userprofile{
+    width:70%;
+    height:150px;
+    border-radius: 4px;
+    transition: 0.5s;
+    
+}
+.user:hover{
+    background-color: blue;
+    color: white;
+}
+.About{
+    width:70%;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4px;
+}
+.About:hover{
+    background-color: blue;
+    color: white;
+}
+.userid{
+    width:100%;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin:10px;
+    background-color:lightblue;
+
+}
+.userid:hover{
+    background-color: blue;
+    color: white;
+}
+.editprofile{
+    width:100%;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin:10px;
+    background-color:lightblue;
+    
+}
+.editprofile:hover{
+    background-color: blue;
+    color: white;
+}
+.changepassword{
+    width:100%;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin:10px;
+    background-color:lightblue;
+    
+}
+.changepassword:hover{
+    background-color: blue;
+    color: white;
+}
+.form{
+    width:70%;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4px;
+}
+.form:hover{
+    background-color: blue;
+    color: white;
+}
+.tables{
+    width:70%;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4px;
+}
+.tables:hover{
+    background-color: blue;
+    color: white;
+}
+.calender{
+    width:70%;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4px;
+}
+.calender:hover{
+    background-color: blue;
+    color: white;
+}
+.chart{
+    width:70%;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4px;
+}
+.chart:hover{
+    background-color: blue;
+    color: white;
+}
+.contact{
+    width:70%;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4px;
+}
+.contact:hover{
+    background-color: blue;
+    color: white;
+}
+.holder{
+    width:80%;
+    height:100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dispaly{
+    width:500px;
+    height:500px;
+    background-color: lightblue;
+}
+.userdata{
+    width: 100%;
+    height:100%;
+    background-color: aquamarine;
+}
+.data{
+    width: 100%;
+    height:80%;
+    background-color:rgb(247, 73, 73);
+}
+.profile{
+    width: 100%;
+    height:20%;
+    background-color:lightgray;
+}
+.profile span{
+   font-size: 28px;
+   margin: 20px;
+}
+.data1{
+    width: 100%;
+    height:80%;
+    background-color:rgb(73, 198, 247);
+}
+.form2{
+    width: 100%;
+    height:80%;
+    background-color:rgb(137, 247, 73);
+}
+.tables2{
+    width: 100%;
+    height:80%;
+    background-color:rgb(230, 247, 73);                 
+}
+.calender2{
+    width: 100%;
+    height:80%;
+    background-color:rgb(247, 137, 73);
+}
+.chart2{
+    width: 100%;
+    height:80%;
+    background-color:rgb(247, 73, 180);
+}
+.contact2{
+    width: 100%;
+    height:80%;
+    background-color:rgb(99, 73, 247);
+    color: white;
+}
+.login{
+    width:70%;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4px;
+}
+.login:hover{
+    background-color: blue;
+    color: white;
+}
+.username{
+    width:80%;
+    height:auto;
+}
+.loginform{
+    width: 100vw;
+    height:100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.username input{
+    width:500px;
+    height:auto;
+    padding: 20px;
+    margin:10px;
+    border: none;
+}
+.username button{
+    width:100px;
+    height:50px;
+    background-color: brown;
+    color:white;
+    cursor: pointer;
+}
+.formlogin{
+    width:600px;
+    height:auto;
+    background-color: lightgray;
+    padding: 20px;
+    position: relative;
+}
+.cancel{
+    width:10px;
+    height:auto;
+    color:red;
+    font-size: 32px;
+    position: absolute;
+    top:0;
+    right: 20px;
+
+}
+.success{
+    color:green;
+}
+.error{
+    color:red;
+}  */
+/*sidebardisplay  */
+/* ____________________________________________________ */
+ .App{
+    width:100%;
+    height:740px;
+}
+.container{
+    width:100%;
+    height:100%;
+    background-color: black;
+    color:white;
+    user-select: none;
+}
+.header{
+    width:100%;
+    height:10%;
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo{
+    width: 10%;
+    height: 70px;
+    cursor: pointer;
+}
+.banking{
+    width:20%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.help{
+    width: 40%;
+    height:auto;
+    text-align: center;
+    padding-top: 10px ;
+    font-size: 20px;
+}
+.login{
+    width: 30%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.login1{
+    width:25%;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    background-color:orange;
+    cursor: pointer;
+}
+.login2{
+    width:25%;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    background-color: green;
+    cursor: pointer;
+}
+.login3{
+    width:25%;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 48px;
+    cursor: pointer;
+}
+.main{
+   width:100%;
+    height:35%;
+
+}
+.main1{
+   min-width:100%;
+   height: 100%;
+}
+.main1 img{
+width: 100%;
+height:100%;
+}
+.holder{
+    width:100%;
+    height:35%;
+}
+.menu{
+    width:100%;
+    height:10%;
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    width:100%;
+    height:10%;
+}
+.menu1{
+    width:13.5%;
+    height:auto;
+    text-align: center;
+    padding:20px;
+    background-color:rgb(35, 34, 34);
+    cursor: pointer;
+
+}
+.imagie{
+    width: 16%;
+    height:100%;
+
+}
+.imagie img{
+    width:100%;
+    height:100%;
+}
+.childimg{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu2{
+    width:13.5%;
+    height:auto;
+    text-align: center;
+    padding:20px;
+    background-color:rgb(35, 34, 34);
+    cursor: pointer;
+
+}
+.menu3{
+    width:13.5%;
+    height:auto;
+    text-align: center;
+    padding:20px;
+    background-color:rgb(35, 34, 34);
+    cursor: pointer;
+
+}
+.menu4{
+    width:13.5%;
+    height:auto;
+    text-align: center;
+    padding:20px;
+    background-color:rgb(35, 34, 34);
+    cursor: pointer;
+
+}
+.menu5{
+    width:13.5%;
+    height:auto;
+    text-align: center;
+    padding:20px;
+    background-color:rgb(35, 34, 34);
+    cursor: pointer;
+
+}
+.menu6{
+    width:13.5%;
+    height:auto;
+    text-align: center;
+    padding:20px;
+    background-color:rgb(35, 34, 34);
+    cursor: pointer;
+
+} 
+.hidemenu{
+    width:20%;
+    height:800px;
+    transition: 1s;
+    background-color:black;
+    position: fixed;
+    right:0;
+    font-size: 48px;
+    cursor: pointer;
+    /* overflow: hidden; */
+}
+.hide{
+        width:0;
+        height:800px;
+        transition: 1s;
+        background-color:black;
+        position: fixed; 
+        right: 0; 
+        
+}
+.sidemenu{
+    overflow: hidden;
+    right:0;
+    font-size:32px;
+    cursor: pointer;
+}
